@@ -1,0 +1,11 @@
+.sortable i {
+    cursor: pointer;
+}
+
+.sortable i:hover {
+    color: #0e90d2;
+}
+
+a {
+    cursor: pointer;
+}
