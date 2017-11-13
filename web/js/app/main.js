@@ -13,7 +13,7 @@ App.factory('invoiceFactory', function () {
     };
 });
 
-App.controller('InvoicesController', function PhoneListController($scope, $http, invoiceFactory) {
+App.controller('InvoicesController', function InvoicesController($scope, $http, invoiceFactory) {
 
     /**
      * @param state string 'hide' | 'show'
@@ -67,7 +67,7 @@ App.controller('InvoicesController', function PhoneListController($scope, $http,
             id: false,
             from: "",
             to: "",
-            status: "",
+            status: 1,
             recipient: "",
             checked : false
         };
